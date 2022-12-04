@@ -1,0 +1,1582 @@
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/App/App.module.scss ***!
+  \*********************************************************************************************************************************************************/
+.App-module__container___EUmSc {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-module__icon_loader_wrapper___XxEgc {
+  height: 75vh;
+  display: flex;
+}
+
+.App-module__icon_loader___l6mia {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 0.2rem solid #a97862;
+  border-top: 0.25rem solid #bd5341;
+  border-radius: 100%;
+  position: relative;
+  left: calc(50% - 1.75rem);
+  top: calc(50% - 1.75rem);
+  animation: App-module__spin___V6egE 1s infinite linear;
+}
+
+@keyframes App-module__spin___V6egE {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*!******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Header/Header.module.scss ***!
+  \******************************************************************************************************************************************************************/
+.Header-module__container___IgNKN {
+  width: 100%;
+  padding: 10px 30px;
+  user-select: none;
+  min-height: 50px;
+  margin-bottom: auto;
+  border-bottom: 2px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #764a23;
+  transition: 0.3s;
+}
+.Header-module__container_scrolled___Q4OGa {
+  background-color: #9b612e;
+}
+.Header-module__container___IgNKN .Header-module__wrapper____p8s4 {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: end;
+}
+/*!******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Navbar/Navbar.module.scss ***!
+  \******************************************************************************************************************************************************************/
+.Navbar-module__container___WYoXN {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+}
+.Navbar-module__container___WYoXN .Navbar-module__link___imz08,
+.Navbar-module__container___WYoXN .Navbar-module__button___tsFru {
+  color: #ddd7c7;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  background-color: inherit;
+  line-height: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.Navbar-module__container___WYoXN .Navbar-module__link___imz08:hover,
+.Navbar-module__container___WYoXN .Navbar-module__button___tsFru:hover {
+  color: #ffffff;
+  background-color: #4c3615;
+}
+.Navbar-module__container___WYoXN .Navbar-module__link_active___MchTR,
+.Navbar-module__container___WYoXN .Navbar-module__button_active___IiZuL {
+  color: #fd9800;
+  cursor: default;
+}
+.Navbar-module__container___WYoXN .Navbar-module__link_active___MchTR:hover,
+.Navbar-module__container___WYoXN .Navbar-module__button_active___IiZuL:hover {
+  color: #fd9800;
+  background-color: inherit;
+}
+
+@media (max-width: 910px) {
+  .Navbar-module__overlay___YWqqU {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    transition: 0.7s;
+  }
+  .Navbar-module__container___WYoXN,
+  .Navbar-module__container_opened_menu____HLoj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    padding: 5rem 2rem 2rem;
+    background: #643920;
+    transform: translateX(30px);
+    min-width: 220px;
+    height: 100vh;
+    transition: 0.7s;
+  }
+  .Navbar-module__container___WYoXN .Navbar-module__link___imz08,
+  .Navbar-module__container___WYoXN .Navbar-module__button___tsFru,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__link___imz08,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__button___tsFru {
+    color: black;
+    font-size: 1.4rem;
+    transition: 0.3s;
+    line-height: 1.2;
+    background-color: inherit;
+    text-align: left;
+    padding: 0.5rem;
+  }
+  .Navbar-module__container___WYoXN .Navbar-module__link___imz08:hover,
+  .Navbar-module__container___WYoXN .Navbar-module__button___tsFru:hover,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__link___imz08:hover,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__button___tsFru:hover {
+    color: #ffffff;
+  }
+  .Navbar-module__container___WYoXN .Navbar-module__link_active___MchTR,
+  .Navbar-module__container___WYoXN .Navbar-module__button_active___IiZuL,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__link_active___MchTR,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__button_active___IiZuL {
+    color: #fd9800;
+    cursor: default;
+  }
+  .Navbar-module__container___WYoXN .Navbar-module__link_active___MchTR:hover,
+  .Navbar-module__container___WYoXN .Navbar-module__button_active___IiZuL:hover,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__link_active___MchTR:hover,
+  .Navbar-module__container_opened_menu____HLoj .Navbar-module__button_active___IiZuL:hover {
+    color: #fd9800;
+  }
+  .Navbar-module__container___WYoXN {
+    right: -21rem;
+  }
+  .Navbar-module__container_opened_menu____HLoj {
+    right: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .Navbar-module__container___WYoXN,
+  .Navbar-module__container_opened_menu____HLoj {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .Navbar-module__container___WYoXN {
+    right: -30rem;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Header/LanguageSwitch/LanguageSwitch.module.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+.LanguageSwitch-module__container___hZMCO {
+  z-index: 6;
+}
+.LanguageSwitch-module__container___hZMCO .LanguageSwitch-module__body___eIIaU {
+  border: solid 1px grey;
+  border-radius: 999px;
+  display: inline-flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: 48px;
+  background-color: #ddd;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background-image: url(/assets/flags/UK5e3fe4102b4c84e5e96f.png);
+  background-size: contain;
+}
+.LanguageSwitch-module__container___hZMCO .LanguageSwitch-module__bodyRU___Cgm1f {
+  background-image: url(/assets/flags/Russia8f95c9a438fe43217ebd.png);
+}
+.LanguageSwitch-module__container___hZMCO .LanguageSwitch-module__body___eIIaU .LanguageSwitch-module__toggle___SH96N {
+  border-radius: 50%;
+  border: solid 1px grey;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  transform: translateX(0%);
+  transition: transform 0.4s ease;
+}
+.LanguageSwitch-module__container___hZMCO .LanguageSwitch-module__body___eIIaU .LanguageSwitch-module__toggleRU___ByAwe {
+  transform: translateX(100%);
+}
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Header/TeamLogo/TeamLogo.module.scss ***!
+  \*****************************************************************************************************************************************************************************/
+.TeamLogo-module__container___mrL6N {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: auto;
+}
+
+.TeamLogo-module__link___xwOKZ {
+  cursor: pointer;
+}
+
+.TeamLogo-module__logo_title___cYmzg {
+  display: inline-block;
+  font-size: 2.3rem;
+  padding: 0.15rem 0 0 0.5rem;
+  font-weight: 700;
+  color: #fd9800;
+}
+
+.TeamLogo-module__link___xwOKZ:hover .TeamLogo-module__logo_title___cYmzg {
+  color: #e28a06;
+  transition: 0.2s;
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Header/BurgerSwitch/BurgerSwitch.module.scss ***!
+  \*************************************************************************************************************************************************************************************/
+.BurgerSwitch-module__button_burger___oo3eQ {
+  display: inline-flex;
+  background-color: transparent;
+  color: cornsilk;
+  font-size: 2rem;
+  z-index: 6;
+}
+
+.BurgerSwitch-module__button_burger___oo3eQ:hover {
+  color: rgb(207, 207, 207);
+  background: transparent;
+}
+
+.BurgerSwitch-module__icon___zSOI9 {
+  height: 2.5rem;
+  fill: currentcolor;
+  flex-shrink: 0;
+}
+
+@media (min-width: 911px) {
+  .BurgerSwitch-module__button_burger___oo3eQ {
+    display: none;
+  }
+}
+/*!***************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Footer/Authors/Authors.module.scss ***!
+  \***************************************************************************************************************************************************************************/
+.Authors-module__container___tM9jx {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.Authors-module__container___tM9jx .Authors-module__author___k1LbE {
+  transition: 0.3s;
+  color: #ddd7c7;
+  font-size: 1.4rem;
+}
+.Authors-module__container___tM9jx .Authors-module__author___k1LbE:hover {
+  transform: scale(1.2);
+}
+.Authors-module__container___tM9jx .Authors-module__author___k1LbE .Authors-module__icon___E_mvU {
+  width: 2rem;
+}
+.Authors-module__container___tM9jx .Authors-module__author___k1LbE .Authors-module__nickname___Ej5pv {
+  display: inline-block;
+  padding-top: 0.3rem;
+}
+
+@media (max-width: 425px) {
+  .Authors-module__container___tM9jx {
+    flex-direction: column;
+  }
+  .Authors-module__container___tM9jx .Authors-module__author___k1LbE {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Footer/Copyright/Copyright.module.scss ***!
+  \*******************************************************************************************************************************************************************************/
+.Copyright-module__copyright___HIaYr {
+  font-size: 1.4rem;
+  color: #ddd7c7;
+}
+/*!******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Footer/Footer.module.scss ***!
+  \******************************************************************************************************************************************************************/
+.Footer-module__container___L_1gu {
+  width: 100%;
+  padding: 10px 30px;
+  user-select: none;
+  min-height: 50px;
+  margin-top: auto;
+  border-top: 2px solid black;
+  background-color: #764a23;
+}
+.Footer-module__container___L_1gu .Footer-module__wrapper___Fm4WW {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 610px) {
+  .Footer-module__container___L_1gu .Footer-module__wrapper___Fm4WW {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .Footer-module__container___L_1gu .Footer-module__wrapper___Fm4WW {
+    flex-direction: column;
+  }
+}
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Footer/Logo/Logo.module.scss ***!
+  \*********************************************************************************************************************************************************************/
+.Logo-module__logo___hqq0M {
+  cursor: pointer;
+  transition: 0.3s;
+  filter: brightness(0.65) contrast(400%) grayscale(10%) invert(73%) opacity(90%) saturate(90%) sepia(100%);
+}
+.Logo-module__logo___hqq0M:hover {
+  transform: scale(1.1);
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/WelcomePage/Description/Description.module.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.Description-module__container___EbqLP {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.Description-module__container___EbqLP .Description-module__subtitle___bJ3l5 {
+  margin: 2.5rem 0 1.4rem;
+  font-family: Consolas, Courier, monospace;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  color: #fd9800;
+}
+.Description-module__container___EbqLP .Description-module__declaration_title___juH9r {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+.Description-module__container___EbqLP .Description-module__declaration_content___Q2Hd2 {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  max-width: 57rem;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+.Description-module__container___EbqLP .Description-module__benefits_container___MNkaI .Description-module__line___JwthD {
+  border: 0;
+  height: 0.2rem;
+  background: linear-gradient(90deg, transparent, #895338, transparent);
+}
+.Description-module__container___EbqLP .Description-module__benefits_container___MNkaI .Description-module__benefits_title___ou2qk {
+  font-size: 3rem;
+  margin: 2rem 0 3rem;
+  color: #fd9800;
+}
+.Description-module__container___EbqLP .Description-module__benefits_container___MNkaI .Description-module__benefits_items_container___Cgz8e {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 910px) {
+  .Description-module__benefits_items_container___Cgz8e {
+    flex-direction: column;
+  }
+  .Description-module__container___EbqLP .Description-module__benefits_container___MNkaI .Description-module__benefits_title___ou2qk {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .Description-module__container___EbqLP .Description-module__benefits_container___MNkaI .Description-module__benefits_title___ou2qk {
+    font-size: 2rem;
+  }
+}
+/*!********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Benefit/Benefit.module.scss ***!
+  \********************************************************************************************************************************************************************/
+.Benefit-module__container___lV8Xc {
+  display: flex;
+  max-width: 45%;
+}
+.Benefit-module__container___lV8Xc .Benefit-module__icon_wrapper___xJll4 .Benefit-module__icon___2ZhOQ {
+  max-height: 4rem;
+}
+.Benefit-module__container___lV8Xc .Benefit-module__content_container___qm1uh {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 9rem;
+}
+.Benefit-module__container___lV8Xc .Benefit-module__content_container___qm1uh .Benefit-module__benefit_title___MxBGD {
+  font-size: 1.8rem;
+  margin-bottom: 2.1rem;
+  font-weight: 600;
+  color: #fd9800;
+}
+.Benefit-module__container___lV8Xc .Benefit-module__content_container___qm1uh .Benefit-module__benefit_content___Gomea {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 2.5rem;
+  min-height: 9rem;
+}
+
+@media (max-width: 910px) {
+  .Benefit-module__container___lV8Xc {
+    max-width: 100%;
+  }
+}
+@media (max-width: 560px) {
+  .Benefit-module__container___lV8Xc {
+    flex-direction: column;
+  }
+  .Benefit-module__container___lV8Xc .Benefit-module__icon_wrapper___xJll4 {
+    margin-bottom: 0.5rem;
+  }
+}
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/WelcomePage/OurTeam/OurTeam.module.scss ***!
+  \***********************************************************************************************************************************************************************************/
+.OurTeam-module__container___A7cui {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 30px 2rem;
+}
+
+.OurTeam-module__title___lQFaT {
+  font-size: 2rem;
+  margin: 2.5rem 0 3rem;
+  font-weight: 600;
+}
+
+.OurTeam-module__content_container___nHoun {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.OurTeam-module__about_course___QWhFr {
+  font-size: 1.3rem;
+  color: #501414;
+  line-height: 1.3;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.OurTeam-module__about_course___QWhFr:nth-child(1n) {
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 400px) {
+  .OurTeam-module__container___A7cui {
+    padding: 0 10px 1.5rem;
+  }
+}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/TeamMember/TeamMember.module.scss ***!
+  \**************************************************************************************************************************************************************************/
+.TeamMember-module__item_container___vKXAs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 1rem 1rem;
+  padding: 1rem;
+  border: 0.1rem solid #bf7d1d;
+  border-radius: 2rem;
+  background: linear-gradient(109deg, #955823, transparent, #955823);
+  color: #501414;
+}
+
+.TeamMember-module__photo___BewbB {
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.TeamMember-module__name___oUpjQ {
+  font-size: 1.8rem;
+}
+
+.TeamMember-module__icon___HGukS {
+  width: 2rem;
+}
+
+.TeamMember-module__icons_list___dcWEt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.TeamMember-module__role___DO_jo {
+  font-size: 1.5rem;
+}
+
+.TeamMember-module__icon_title___XSCX_ {
+  text-decoration: none;
+  color: #000;
+}
+
+.TeamMember-module__github_link___xdiz6:hover,
+.TeamMember-module__linkedin_link____x_df:hover {
+  filter: invert(0.5);
+  transition: 0.3s;
+}
+
+@media (max-width: 400px) {
+  .TeamMember-module__item_container___vKXAs {
+    width: 15rem;
+  }
+  .TeamMember-module__photo___BewbB {
+    width: 12rem;
+    margin: 0 auto;
+  }
+}
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/WelcomePage/Title/Title.module.scss ***!
+  \*******************************************************************************************************************************************************************************/
+.Title-module__wrapper___B_s69 {
+  background: linear-gradient(53deg, #895338, #b17f37, #895338);
+  padding: 0 30px;
+  width: 100%;
+}
+.Title-module__wrapper___B_s69 .Title-module__container___AERVP {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url(/assets/time-planning790cbe80c142797cd97c.jpg);
+  min-height: 30rem;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 50%;
+}
+.Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__title___rQPJN {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #fd9800;
+}
+.Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__tagline___ocXoU {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  color: #fd9800;
+}
+.Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__proposal___Y18b_ {
+  font-size: 2.3rem;
+  max-width: 45%;
+  line-height: 1.2;
+  color: floralwhite;
+}
+.Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__proposal___Y18b_:nth-child(3) {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1330px) {
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP {
+    background-size: contain;
+    min-height: 33rem;
+  }
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__proposal___Y18b_ {
+    max-width: 40%;
+  }
+}
+@media (max-width: 1210px) {
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP {
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5)), url(/assets/time-planning790cbe80c142797cd97c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__title___rQPJN,
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__tagline___ocXoU {
+    text-align: right;
+  }
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__proposal___Y18b_ {
+    max-width: 50%;
+  }
+}
+@media (max-width: 910px) {
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP {
+    background: none;
+    min-height: 28rem;
+  }
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__tagline___ocXoU {
+    margin-bottom: 3rem;
+  }
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__title___rQPJN {
+    font-size: 4rem;
+  }
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__title___rQPJN,
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__tagline___ocXoU {
+    text-align: left;
+  }
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__proposal___Y18b_ {
+    max-width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .Title-module__wrapper___B_s69 .Title-module__container___AERVP .Title-module__proposal___Y18b_ {
+    font-size: 2rem;
+  }
+}
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/WelcomePage/WelcomePage.module.scss ***!
+  \*******************************************************************************************************************************************************************************/
+.WelcomePage-module__container___ik43y {
+  width: 100%;
+  min-height: calc(100vh - 50px - 50px - 10px);
+}
+
+.WelcomePage-module__container___ik43y .WelcomePage-module__wrapper___dGu1E {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+}
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/NotFoundPage/NotFoundPage.module.scss ***!
+  \*********************************************************************************************************************************************************************************/
+.NotFoundPage-module__container___JezBS {
+  width: 100%;
+  min-height: calc(100vh - 50px - 50px - 10px);
+}
+
+.NotFoundPage-module__container___JezBS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1)), url(/assets/warning727d908cb281675b1ca0.svg);
+  background-size: cover;
+  background-position: center;
+}
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 {
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 5rem;
+}
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__title___yIBFc {
+  font-size: 10rem;
+  color: #fd9800;
+  text-shadow: 0 0 2px #3c0d0d, 1px 1px 0 hsl(33deg, 100%, 58%), 2px 2px 1px hsl(44deg, 100%, 59%), 2px 2px 2px hsl(80deg, 10%, 15%), 2px 2px 7px hsl(60deg, 80%, 95%), 3px 3px 7px hsl(60deg, 10%, 65%), 4px 4px 7px hsl(60deg, 10%, 65%), 5px 5px 7px hsl(60deg, 10%, 65%), 6px 6px 7px hsl(60deg, 10%, 65%), 7px 7px 8px hsl(60deg, 10%, 40%), 8px 8px 9px hsl(60deg, 10%, 55%);
+}
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__declaration___saSUg,
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__button___E4IJy,
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__link___lZlx8 {
+  color: #764a23;
+  text-shadow: 0 0 0 #3c0d0c, 0 0 0 hsl(33deg, 100%, 58%), 0 0 0 hsl(44deg, 100%, 59%), 0 0 0 hsl(80deg, 10%, 15%);
+}
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__declaration___saSUg {
+  max-width: 54rem;
+  min-height: 10rem;
+}
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__button___E4IJy {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__link___lZlx8 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #fd9800;
+  border-radius: 1rem;
+  border: 0.1rem solid;
+  transition: 0.3s;
+}
+.NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__link___lZlx8:hover {
+  background-color: #3c0d0d;
+  background-color: #3c0d0c;
+  color: #fd9800;
+}
+
+.NotFoundPage-module__transform___cYckR {
+  transform: translateY(20%);
+}
+
+@media (max-width: 790px) {
+  .NotFoundPage-module__container___JezBS {
+    min-height: calc(100vh - 50px - 50px - 10px);
+  }
+  .NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 {
+    font-size: 3rem;
+  }
+  .NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__title___yIBFc {
+    font-size: 5rem;
+  }
+  .NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__declaration___saSUg {
+    margin-top: 1.5rem;
+  }
+  .NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__link___lZlx8 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 607px) {
+  .NotFoundPage-module__container___JezBS {
+    min-height: calc(100vh - 50px - 50px - 60px);
+  }
+}
+@media (max-width: 506px) {
+  .NotFoundPage-module__container___JezBS {
+    min-height: calc(100vh - 50px - 50px - 100px);
+  }
+}
+@media (max-width: 450px) {
+  .NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 {
+    font-size: 2rem;
+  }
+  .NotFoundPage-module__container___JezBS .NotFoundPage-module__wrapper___UvXb8 .NotFoundPage-module__title___yIBFc {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 426px) {
+  .NotFoundPage-module__container___JezBS {
+    min-height: calc(100vh - 50px - 50px - 200px);
+  }
+}
+@media (max-width: 407px) {
+  .NotFoundPage-module__container___JezBS {
+    min-height: calc(100vh - 50px - 50px - 270px);
+  }
+}
+/*!********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Spinner/Spinner.module.scss ***!
+  \********************************************************************************************************************************************************************/
+.Spinner-module__loading___QgiNT {
+  margin-left: auto;
+}
+
+.Spinner-module__loading___QgiNT:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.Spinner-module__loading___QgiNT:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.Spinner-module__loading___QgiNT:not(:required):after {
+  content: "";
+  display: block;
+  font-size: 5px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: Spinner-module__spinner___Y2PPi 1500ms infinite linear;
+  -moz-animation: Spinner-module__spinner___Y2PPi 1500ms infinite linear;
+  -ms-animation: Spinner-module__spinner___Y2PPi 1500ms infinite linear;
+  -o-animation: Spinner-module__spinner___Y2PPi 1500ms infinite linear;
+  animation: Spinner-module__spinner___Y2PPi 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+@-webkit-keyframes Spinner-module__spinner___Y2PPi {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes Spinner-module__spinner___Y2PPi {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes Spinner-module__spinner___Y2PPi {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes Spinner-module__spinner___Y2PPi {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/SighUpForm/SignUp.module.scss ***!
+  \*******************************************************************************************************************************************************************/
+/*   border radius */
+.SignUp-module__form___vL0Xp {
+  width: 28rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+.SignUp-module__form__title___HvYGx {
+  margin-bottom: 0.5rem;
+}
+.SignUp-module__form__description___QFYD5 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.SignUp-module__form__group___kjhdu {
+  position: relative;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+}
+.SignUp-module__form__password___ewm6b {
+  margin-top: 3rem;
+  position: relative;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+}
+.SignUp-module__form__login___XSO1R {
+  margin-top: 3rem;
+  position: relative;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+}
+.SignUp-module__form__input___uH2r8 {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #cfd8dc;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  outline: none;
+  padding: 1.25rem;
+  background: none;
+}
+.SignUp-module__form__input___uH2r8:hover {
+  border-color: #9dedff;
+}
+.SignUp-module__form__input___uH2r8:focus {
+  border-color: #7bdff6;
+}
+.SignUp-module__form__label___bFPED {
+  position: absolute;
+  left: 1rem;
+  top: 0.9rem;
+  padding: 0 0.5rem;
+  background-color: white;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.SignUp-module__form__buttons___zFEzb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.SignUp-module__form__buttons___zFEzb a {
+  cursor: pointer;
+}
+.SignUp-module__form__buttons___zFEzb a:hover {
+  transition: 0.3s;
+  border-bottom: 2px solid #8ad6ff;
+}
+.SignUp-module__form__signInButtons___UxSlt {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5rem;
+}
+.SignUp-module__form__signInButtons___UxSlt a {
+  cursor: pointer;
+}
+.SignUp-module__form__signInButtons___UxSlt a:hover {
+  transition: 0.3s;
+  border-bottom: 2px solid #8ad6ff;
+}
+.SignUp-module__form__button___fGC4x {
+  display: block;
+  margin-left: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #9dedff;
+  font-family: inherit;
+  font-weight: inherit;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+}
+.SignUp-module__form__button___fGC4x:hover {
+  background-color: #7bdff6;
+}
+.SignUp-module__form___vL0Xp .SignUp-module__error___Je8b5 {
+  padding-top: 5px;
+  color: red;
+}
+
+/* 
+1. When the input is in the focus state
+reduce the size of the label and move upwards 
+
+2. Keep label state when content is in input field 
+*/
+.SignUp-module__form__input___uH2r8:focus ~ .SignUp-module__form__label___bFPED,
+.SignUp-module__form__input___uH2r8:not(:placeholder-shown).SignUp-module__form__input___uH2r8:not(:focus) ~ .SignUp-module__form__label___bFPED {
+  top: -0.5rem;
+  left: 0.8rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 400px) {
+  .SignUp-module__form___vL0Xp {
+    width: 24rem;
+  }
+}
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/SignUpPage/SignUpPage.module.scss ***!
+  \*****************************************************************************************************************************************************************************/
+.SignUpPage-module__container___RenHd {
+  width: 100%;
+  min-height: calc(100vh - 50px - 50px - 10px);
+}
+
+.SignUpPage-module__container___RenHd {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  background-color: #79ceff;
+  background-image: linear-gradient(315deg, #79ceff 0%, #dcb5ff 67%, #ffb8f0 100%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #425a65;
+}
+
+@media (max-width: 400px) {
+  .SignUpPage-module__container___RenHd {
+    width: 115%;
+  }
+}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Modal/modals/modalFormResponse.module.scss ***!
+  \********************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.modalFormResponse-module__modal__container___R2EMe {
+  position: absolute;
+  width: 10rem;
+  background-color: rgb(178, 181, 191);
+  bottom: 80vh;
+  transform: translateX(-100%);
+  border-radius: 0.5rem;
+  animation: modalFormResponse-module__move___xcdlf 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  transition-timing-function: ease-in;
+}
+.modalFormResponse-module__modal__container___R2EMe .modalFormResponse-module__succsess__block___yZGLX {
+  padding: 2rem 3rem;
+  color: rgb(36, 107, 36);
+}
+.modalFormResponse-module__modal__container___R2EMe .modalFormResponse-module__error__block___woZlu {
+  padding: 2rem 1rem;
+  color: rgb(149, 13, 13);
+}
+
+@keyframes modalFormResponse-module__move___xcdlf {
+  from {
+    transform: translateX(-100%);
+  } /* от: left: 0px */
+  to {
+    transform: translateX(100%);
+  }
+}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/EditProfilePage/EditProfilePage.module.scss ***!
+  \***************************************************************************************************************************************************************************************/
+.EditProfilePage-module__container___OniRo {
+  width: 100%;
+  min-height: calc(100vh - 50px - 50px - 10px);
+}
+
+.EditProfilePage-module__container___OniRo {
+  display: flex;
+  justify-content: center;
+}
+/*!***************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/updateUserForm/UpdateForm.module.scss ***!
+  \***************************************************************************************************************************************************************************/
+/*   border radius */
+.UpdateForm-module__form___C4OvV {
+  width: 28rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+.UpdateForm-module__form__title___NXWtK {
+  margin-bottom: 0.5rem;
+}
+.UpdateForm-module__form__description___t0qzr {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.UpdateForm-module__form__group___GEEMd {
+  position: relative;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+}
+.UpdateForm-module__form__password___QnaBM {
+  margin-top: 3rem;
+  position: relative;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+}
+.UpdateForm-module__form__login___PSrEX {
+  margin-top: 3rem;
+  position: relative;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+}
+.UpdateForm-module__form__input___HFpos {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #cfd8dc;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  outline: none;
+  padding: 1.25rem;
+  background: none;
+}
+.UpdateForm-module__form__input___HFpos:hover {
+  border-color: #9dedff;
+}
+.UpdateForm-module__form__input___HFpos:focus {
+  border-color: #7bdff6;
+}
+.UpdateForm-module__form__label___SLWAY {
+  position: absolute;
+  left: 1rem;
+  top: 0.9rem;
+  padding: 0 0.5rem;
+  background-color: white;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.UpdateForm-module__form__buttons___TGsxo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5rem;
+}
+.UpdateForm-module__form__buttons___TGsxo a {
+  cursor: pointer;
+}
+.UpdateForm-module__form__buttons___TGsxo a:hover {
+  transition: 0.3s;
+  border-bottom: 2px solid #8ad6ff;
+}
+.UpdateForm-module__form__signInButtons___IiCl0 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5rem;
+}
+.UpdateForm-module__form__signInButtons___IiCl0 a {
+  cursor: pointer;
+}
+.UpdateForm-module__form__signInButtons___IiCl0 a:hover {
+  transition: 0.3s;
+  border-bottom: 2px solid #8ad6ff;
+}
+.UpdateForm-module__form__button___Ohwjn {
+  display: block;
+  margin-left: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #9dedff;
+  font-family: inherit;
+  font-weight: inherit;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+  text-align: center;
+}
+.UpdateForm-module__form__button___Ohwjn:hover {
+  background-color: #7bdff6;
+}
+.UpdateForm-module__form__deleteButton___VtCZ6 {
+  width: 30%;
+  display: block;
+  margin-left: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #9dedff;
+  font-family: inherit;
+  font-weight: inherit;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+  text-align: center;
+}
+.UpdateForm-module__form__deleteButton___VtCZ6:hover {
+  background-color: #7bdff6;
+}
+.UpdateForm-module__form___C4OvV .UpdateForm-module__error___NAS1z {
+  padding-top: 5px;
+  color: red;
+}
+
+/* 
+1. When the input is in the focus state
+reduce the size of the label and move upwards 
+
+2. Keep label state when content is in input field 
+*/
+.UpdateForm-module__form__input___HFpos:focus ~ .UpdateForm-module__form__label___SLWAY,
+.UpdateForm-module__form__input___HFpos:not(:placeholder-shown).UpdateForm-module__form__input___HFpos:not(:focus) ~ .UpdateForm-module__form__label___SLWAY {
+  top: -0.5rem;
+  left: 0.8rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 400px) {
+  .UpdateForm-module__form___C4OvV {
+    width: 24rem;
+  }
+}
+/*!***************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Modal/modals/confirmModal.module.scss ***!
+  \***************************************************************************************************************************************************************************/
+.confirmModal-module__modal__container___L4rD3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5);
+}
+
+.confirmModal-module__modal__content___aMuQW {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.confirmModal-module__modal__content__buttons___vuGQI {
+  display: flex;
+}
+
+.confirmModal-module__confirmButton___DLOLe {
+  display: block;
+  margin-left: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #9dedff;
+  font-family: inherit;
+  font-weight: inherit;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+  text-align: center;
+}
+.confirmModal-module__confirmButton___DLOLe:hover {
+  background-color: #7bdff6;
+}
+
+@media only screen and (max-width: 769px) {
+  .confirmModal-module__modal-content___I68tR {
+    flex-direction: column;
+  }
+  .confirmModal-module__modal-content___I68tR .confirmModal-module__close-modal___zZMdd {
+    margin-left: auto;
+  }
+}
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/MainPage/MainPage.module.scss ***!
+  \*************************************************************************************************************************************************************************/
+.MainPage-module__container___Ae3dB {
+  width: 100%;
+  min-height: calc(100vh - 50px - 50px - 10px);
+}
+
+.MainPage-module__container___Ae3dB {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.MainPage-module__container___Ae3dB .MainPage-module__title___L4S5y {
+  width: 100%;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+}
+.MainPage-module__container___Ae3dB .MainPage-module__boardsContainer___TYXP5 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+/*!****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Board/Board.module.scss ***!
+  \****************************************************************************************************************************************************************/
+.Board-module__container___hS34I {
+  width: 300px;
+  height: 150px;
+  border: solid black 2px;
+  cursor: pointer;
+}
+.Board-module__container___hS34I .Board-module__title___YivJx {
+  font-size: 2rem;
+}
+.Board-module__container___hS34I .Board-module__subtitle___U7FGT {
+  font-size: 1rem;
+}
+.Board-module__container___hS34I .Board-module__delete___EiDBS {
+  background-color: inherit;
+  border: 2px solid black;
+  width: 90px;
+  height: 30px;
+}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Searchbar/Searchbar.module.scss ***!
+  \************************************************************************************************************************************************************************/
+.Searchbar-module__searchbar___ohnec {
+  margin-top: 10px;
+  position: relative;
+  margin: 0 auto;
+}
+.Searchbar-module__searchbar__line___gs6Sp {
+  height: 2rem;
+  width: 300px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  padding-left: 25px;
+}
+.Searchbar-module__searchbar__line___gs6Sp::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  background-image: url(/assets/searchbar/close2001e956d267bc9b1a23.svg);
+  background-size: 1.7rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  transition: 0.3s;
+  position: relative;
+  left: 1px;
+}
+.Searchbar-module__searchbar__line___gs6Sp:focus {
+  border: 2px solid black;
+}
+.Searchbar-module__searchbar__submit___tdkxv {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: inherit;
+  background-image: url(/assets/searchbar/search5d8f34cc33b3e4198eb7.svg);
+  background-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: invert(0.4);
+  transition: 0.3s;
+}
+.Searchbar-module__searchbar__submit___tdkxv:hover {
+  filter: invert(0);
+}
+/*!**********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/AddBoard/AddBoard.module.scss ***!
+  \**********************************************************************************************************************************************************************/
+.AddBoard-module__container___qNdiW {
+  width: 300px;
+  height: 150px;
+  border: dotted black 2px;
+  cursor: pointer;
+}
+.AddBoard-module__container___qNdiW .AddBoard-module__circle___LI_tD {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  border: dotted black 2px;
+}
+.AddBoard-module__container___qNdiW .AddBoard-module__circle___LI_tD .AddBoard-module__text____43Yo {
+  line-height: 96px;
+}
+/*!***************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/pages/BoardPage/BoardPage.module.scss ***!
+  \***************************************************************************************************************************************************************************/
+.BoardPage-module__container___D9QnR {
+  width: 100%;
+  min-height: calc(100vh - 50px - 50px - 10px);
+}
+
+.BoardPage-module__container___D9QnR {
+  display: flex;
+  flex-direction: column;
+}
+.BoardPage-module__container___D9QnR .BoardPage-module__title___BRLqf {
+  width: 100%;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+  flex-grow: 0;
+}
+.BoardPage-module__container___D9QnR .BoardPage-module__columnsContainer___Y79G3 {
+  flex-grow: 1;
+  max-height: calc(100vh - 50px - 50px - 30px - 4rem);
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.BoardPage-module__container___D9QnR .BoardPage-module__button___LFxdv {
+  width: 90px;
+  height: 30px;
+  flex-grow: 0;
+  margin-left: auto;
+}
+/*!******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Column/Column.module.scss ***!
+  \******************************************************************************************************************************************************************/
+.Column-module__container___nzcGW {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.Column-module__container___nzcGW .Column-module__title___lvmw2 {
+  font-size: 1.2rem;
+}
+.Column-module__container___nzcGW .Column-module__tasksContainer___dtki4 {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Task/Task.module.scss ***!
+  \**************************************************************************************************************************************************************/
+.Task-module__container___b8BnF {
+  flex-grow: 1;
+  min-height: 100px;
+  max-height: 100px;
+  border: 2px solid gray;
+  background: white;
+  margin: 5px 0;
+}
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Column/ColumnHeader/ColumnTitleText/ColumnTitleText.module.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+.ColumnTitleText-module__container___KtZXW {
+  grid-area: title;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Column/ColumnHeader/ColumnTitleInput/ColumnTitleInput.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************/
+.ColumnTitleInput-module__container___Wjvr1 {
+  height: 20px;
+  grid-area: title;
+  display: flex;
+  flex-direction: row;
+}
+.ColumnTitleInput-module__container___Wjvr1 input {
+  height: 100%;
+  text-overflow: ellipsis;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/UI/Column/ColumnHeader/ColumnHeader.module.scss ***!
+  \*************************************************************************************************************************************************************************************/
+.ColumnHeader-module__container___pW7rV {
+  position: fixed;
+  min-height: 40px;
+  width: 280px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "title title" "btndelcol btncrttsk";
+}
+.ColumnHeader-module__container___pW7rV .ColumnHeader-module__buttonDeleteColumn___FzrfI {
+  grid-area: btndelcol;
+}
+.ColumnHeader-module__container___pW7rV .ColumnHeader-module__buttonCreateTask___Aa8AG {
+  grid-area: btncrttsk;
+}
+
+.ColumnHeader-module__placeholder___W_SXX {
+  min-height: 40px;
+}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/reset.scss ***!
+  \*************************************************************************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
